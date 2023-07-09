@@ -1,0 +1,142 @@
+{
+  "name": "Kenshi Opera GX",
+  "description": "Мод Opera GX с тематикой 'Kenshi' для Павла by ITDOBRO",
+  "developer": {
+    "name": "ITDOBRO"
+  },
+  "icons": {
+    "512": "imgs/kenshi_1.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": [
+        "music/00 - Kenshi_1.mp3",
+        "music/02 - Kianu.mp3",
+        "music/03 - Sands at Dusk.mp3",
+        "music/07 - Yearn For Night.mp3",
+        "music/09 - Bog.mp3"
+      ],
+      "browser_sounds": {
+        "CLICK": [
+          "sound/click.wav"
+        ],
+        "FEATURE_SWITCH_OFF": [
+          "sound/feature_switch_off.mp3"
+        ],
+        "FEATURE_SWITCH_ON": [
+          "sound/feature_switch_on.mp3"
+        ],
+        "HOVER": [
+          "sound/hover.wav"
+        ],
+        "HOVER_UP": [
+          "sound/hover.wav"
+        ],
+        "IMPORTANT_CLICK": [
+          "sound/important_click.mp3"
+        ],
+        "LEVEL_UPGRADE": [
+          "sound/level_upgrade.mp3"
+        ],
+        "LIMITER_OFF": [
+          "sound/limiter_off.mp3"
+        ],
+        "LIMITER_ON": [
+          "sound/limiter_on.mp3"
+        ],
+        "SWITCH_TOGGLE": [
+          "sound/switch.wav"
+        ],
+        "TAB_CLOSE": [
+          "sound/close_tab.wav"
+        ],
+        "TAB_INSERT": [
+          "sound/new_tab.wav"
+        ],
+        "TAB_SLASH": [
+          "sound/tab_slash.wav"
+        ]
+      },
+      "keyboard_sounds": {
+        "TYPING_BACKSPACE": [
+          "keyboard/backspace.wav"
+        ],
+        "TYPING_ENTER": [
+          "keyboard/enter.wav"
+        ],
+        "TYPING_LETTER": [
+          "keyboard/letter_1.wav"
+        ],
+        "TYPING_SPACE": [
+          "keyboard/space.wav"
+        ]
+      },
+      "page_styles": [
+        {
+          "css": [
+            "webmodding/opera.css"
+          ],
+          "matches": [
+            "https://*.opera.com/*"
+          ]
+        },
+        {
+          "css": [
+            "webmodding/discordTheme.css",
+            "webmodding/modifiedColors.css"
+          ],
+          "matches": [
+            "https://*.discord.com/*"
+          ]
+        }
+      ],
+      "shaders": {
+        "CRT": "shaders/crt.txt",
+        "CRT (curved)": "shaders/crt_curved.txt"
+
+      },
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 20,
+            "s": 79,
+            "l": 80
+          },
+          "gx_secondary_base": {
+            "h": 264,
+            "s": 21,
+            "l": 27
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 264,
+            "s": 21,
+            "l": 27
+          },
+          "gx_secondary_base": {
+            "h": 20,
+            "s": 79,
+            "l": 80
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/kenshi_wp.jpg",
+          "text_color": "ffffff",
+          "text_shadow": "ffffff"
+        },
+        "light": {
+          "image": "wallpaper/kenshi_wp.jpg",
+          "text_color": "ffffff",
+          "text_shadow": "ffffff"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}
